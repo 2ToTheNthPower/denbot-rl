@@ -22,9 +22,6 @@ fi
 # Initialize and update git submodules
 echo "Initializing git submodules..."
 git submodule update --init --recursive
-cd rlviser_code
-git checkout v0.7.16
-cd ..
 
 # Build RLViser
 echo "Building RLViser..."
